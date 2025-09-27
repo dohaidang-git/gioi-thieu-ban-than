@@ -1,0 +1,144 @@
+/* CSS chung */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E0FFFF; /* Turquoise nhẹ cho background tổng */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #40E0D0; /* Turquoise đậm cho header và footer */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    flex-grow: 1;
+}
+
+.content-section {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #40E0D0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #48D1CC; /* Turquoise hài hòa hơn */
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #40E0D0;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 18px;
+    color: #48D1CC;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none; /* Bỏ dấu chấm đầu dòng */
+    padding-left: 0;
+}
+
+ul ul {
+    padding-left: 20px; /* Thụt đầu dòng cho cấp con */
+}
+
+ol {
+    padding-left: 20px; /* Thụt đầu dòng cho danh sách có thứ tự */
+}
+
+.text-content {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #40E0D0;
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #40E0D0;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #40E0D0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form input[type="submit"]:hover {
+    background-color: #33C4B6;
+}

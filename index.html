@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#thong-tin">Thông tin</a>
+            <a href="#so-thich">Sở thích</a>
+            <a href="#muc-tieu">Mục tiêu</a>
+            <a href="#lien-he">Liên hệ</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="thong-tin" class="content-section">
+            <h1>Giới thiệu bản thân</h1>
+            <img src="https://scontent.fsgn16-1.fna.fbcdn.net/v/t39.30808-1/368320818_1951206268598913_98312754275041375_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=aC0S2nryMxEQ7kNvwH-jPKn&_nc_oc=AdlcvQ8_Se-ME18Il9r9mTBf0ubuVIUUj8pUbCTWMrCLC6WB1tH8y5tu-XTKFcRMWkRrpntgvFOPjGRd7VtsyaRa&_nc_zt=24&_nc_ht=scontent.fsgn16-1.fna&_nc_gid=-GMC6YZ-c2PNdHoqhA169Q&oh=00_AfYVOuYQr8oRGJgmmGlh0p5BOw8s2s5ZDYeAu2Bc-u4h8Q&oe=68DD4EE6"
+                alt="Ảnh đại diện" width="200" height="200">
+            <h2>Thông tin cơ bản</h2>
+            <ul>
+                <li>Họ và tên: Đỗ Hải Đăng</li>
+                <li>Ngày sinh: 6/9/2005</li>
+                <li>Chuyên ngành: Hệ thống thông tin</li>
+            </ul>
+        </section>
+
+        <section id="so-thich" class="content-section">
+            <h2>Sở thích</h2>
+            <div class="text-content">
+                <h3>Món ăn</h3>
+                <ul>
+                    <li>Phở</li>
+                    <li>Bún chả</li>
+                    <li>Cơm tấm</li>
+                </ul>
+                <h3>Giải trí</h3>
+                <h4>Trò chơi</h4>
+                <ul>
+                    <li>Liên minh huyền thoại</li>
+                    <li>Valorant</li>
+                </ul>
+                <h4>Bài hát yêu thích</h4>
+                <ul>
+                    <li>Yoru ni Kakeru - YOASOBI</li>
+                    <li>Shinunoga E-Wa - Fujii Kaze</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="muc-tieu" class="content-section">
+            <h2>Mục tiêu của bản thân</h2>
+            <table>
+                <tr>
+                    <th>Mục tiêu</th>
+                    <th>Thời gian hoàn thành</th>
+                    <th>Hoàn thành</th>
+                </tr>
+                <tr>
+                    <td>Tốt nghiệp loại giỏi chuyên ngành Hệ thống thông tin</td>
+                    <td>Cuối 2027</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Tham gia nghiên cứu và có thành quả cụ thể</td>
+                    <td>Cuối 2025 - đầu 2026</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="lien-he" class="content-section">
+            <h2>Gửi thông tin và giao lưu cùng tôi</h2>
+            <form>
+                <label>Họ và tên:</label><br>
+                <input type="text" name="hoten"><br><br>
+                <label>Email:</label><br>
+                <input type="email" name="email"><br><br>
+                <label>Tin nhắn:</label><br>
+                <textarea name="tinnhan"></textarea><br><br>
+                <label>Giới tính:</label><br>
+                <input type="radio" name="gioitinh" value="Nam"> Nam
+                <input type="radio" name="gioitinh" value="Nữ"> Nữ<br><br>
+                <label>Sở thích:</label><br>
+                <input type="checkbox" name="sothich" value="Nghe nhạc"> Nghe nhạc
+                <input type="checkbox" name="sothich" value="Bơi lội"> Bơi lội<br><br>
+                <label>Ngành:</label><br>
+                <select name="nganh">
+                    <option value="Khoa học Máy tính">Khoa học Máy tính</option>
+                    <option value="Công nghệ Thông tin">Công nghệ Thông tin</option>
+                    <option value="Kỹ thuật Phần mềm">Kỹ thuật Phần mềm</option>
+                    <option value="Khoa học dữ liệu">Khoa học dữ liệu</option>
+                    <option value="An toàn thông tin">An toàn thông tin</option>
+                    <option value="Hệ thống thông tin">Hệ thống thông tin</option>
+                    <option value="Mạng máy tính">Mạng máy tính</option>
+                </select><br><br>
+                <input type="submit" value="Gửi">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 23520225 Đỗ Hải Đăng/p>
+        <p>Khoa Hệ Thống Thông Tin - Trường ĐHCNTT</p>
+    </footer>
+</body>
+</html>
